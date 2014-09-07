@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E41E85017EECDDF00B53137 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E41E84F17EECDDF00B53137 /* MediaPlayer.framework */; };
+		5E41E85217EED93D00B53137 /* MusicPlayer@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E85117EED93D00B53137 /* MusicPlayer@2x.PNG */; };
+		5E41E85817EEDC0300B53137 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E41E85717EEDC0300B53137 /* PlayerViewController.m */; };
+		5E41E85A17EEE96200B53137 /* Forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E85917EEE96200B53137 /* Forward@2x.png */; };
+		5E41E85C17EEE96700B53137 /* Backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E85B17EEE96700B53137 /* Backward@2x.png */; };
+		5E41E85E17EEE97A00B53137 /* Pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E85D17EEE97A00B53137 /* Pause@2x.png */; };
+		5E41E86317EEEAE600B53137 /* VolDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E86117EEEAE600B53137 /* VolDown@2x.png */; };
+		5E41E86417EEEAE600B53137 /* VolUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E86217EEEAE600B53137 /* VolUp@2x.png */; };
+		5E41E86717EF079900B53137 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E86517EF079900B53137 /* Play.png */; };
+		5E41E86817EF079900B53137 /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E41E86617EF079900B53137 /* Play@2x.png */; };
+		5E41E86B17EF3B3C00B53137 /* YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E41E86A17EF3B3C00B53137 /* YoutubeViewController.m */; };
+		5E41E86E17EF3DEF00B53137 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E41E86D17EF3DEF00B53137 /* Music.m */; };
+		5E5370FA17EEBDB300F9A8D8 /* Compose.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5370F817EEBDB300F9A8D8 /* Compose.png */; };
+		5E5370FB17EEBDB300F9A8D8 /* Compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5370F917EEBDB300F9A8D8 /* Compose@2x.png */; };
+		5E5370FE17EEC03900F9A8D8 /* ID.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5370FC17EEC03900F9A8D8 /* ID.png */; };
+		5E5370FF17EEC03900F9A8D8 /* ID@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5370FD17EEC03900F9A8D8 /* ID@2x.png */; };
+		5E6E493717EDDBC00083E779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E493617EDDBC00083E779 /* Foundation.framework */; };
+		5E6E493917EDDBC00083E779 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E493817EDDBC00083E779 /* CoreGraphics.framework */; };
+		5E6E493B17EDDBC00083E779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E493A17EDDBC00083E779 /* UIKit.framework */; };
+		5E6E494117EDDBC00083E779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E493F17EDDBC00083E779 /* InfoPlist.strings */; };
+		5E6E494317EDDBC00083E779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E494217EDDBC00083E779 /* main.m */; };
+		5E6E494717EDDBC00083E779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E494617EDDBC00083E779 /* AppDelegate.m */; };
+		5E6E494A17EDDBC00083E779 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E494817EDDBC00083E779 /* Main_iPhone.storyboard */; };
+		5E6E494D17EDDBC00083E779 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E494B17EDDBC00083E779 /* Main_iPad.storyboard */; };
+		5E6E495017EDDBC00083E779 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E494F17EDDBC00083E779 /* ViewController.m */; };
+		5E6E495217EDDBC00083E779 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E495117EDDBC00083E779 /* Images.xcassets */; };
+		5E6E495917EDDBC00083E779 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E495817EDDBC00083E779 /* XCTest.framework */; };
+		5E6E495A17EDDBC00083E779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E493617EDDBC00083E779 /* Foundation.framework */; };
+		5E6E495B17EDDBC00083E779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E493A17EDDBC00083E779 /* UIKit.framework */; };
+		5E6E496317EDDBC00083E779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E496117EDDBC00083E779 /* InfoPlist.strings */; };
+		5E6E496517EDDBC00083E779 /* MuseiOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E496417EDDBC00083E779 /* MuseiOSAppTests.m */; };
+		5E6E496F17EDE4B60083E779 /* Muse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E496E17EDE4B60083E779 /* Muse@2x.png */; };
+		5E6E497117EDE4BA0083E779 /* Muse.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497017EDE4BA0083E779 /* Muse.png */; };
+		5E6E497317EDE7E60083E779 /* LoginInput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497217EDE7E60083E779 /* LoginInput@2x.png */; };
+		5E6E497517EDE7EC0083E779 /* LoginInput.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497417EDE7EC0083E779 /* LoginInput.png */; };
+		5E6E497817EDEABC0083E779 /* Password in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497617EDEABC0083E779 /* Password */; };
+		5E6E497917EDEABC0083E779 /* Password@2x in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497717EDEABC0083E779 /* Password@2x */; };
+		5E6E497C17EDEAC30083E779 /* Username.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497A17EDEAC30083E779 /* Username.png */; };
+		5E6E497D17EDEAC30083E779 /* Username@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497B17EDEAC30083E779 /* Username@2x.png */; };
+		5E6E497F17EDEC190083E779 /* SignInBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E497E17EDEC190083E779 /* SignInBtn@2x.png */; };
+		5E6E498217EDF4970083E779 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498017EDF4970083E779 /* Profile.png */; };
+		5E6E498317EDF4970083E779 /* Profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498117EDF4970083E779 /* Profile@2x.png */; };
+		5E6E498617EDF4B70083E779 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498417EDF4B70083E779 /* Settings.png */; };
+		5E6E498717EDF4B70083E779 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498517EDF4B70083E779 /* Settings@2x.png */; };
+		5E6E498A17EDF4CF0083E779 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498817EDF4CF0083E779 /* Music.png */; };
+		5E6E498B17EDF4CF0083E779 /* Music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498917EDF4CF0083E779 /* Music@2x.png */; };
+		5E6E498E17EDF4E80083E779 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498C17EDF4E80083E779 /* Search.png */; };
+		5E6E498F17EDF4E80083E779 /* Search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E498D17EDF4E80083E779 /* Search@2x.png */; };
+		5E6E499517EDFA670083E779 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E499417EDFA670083E779 /* SettingsViewController.m */; };
+		5E6E499817EDFA780083E779 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E499717EDFA780083E779 /* SearchViewController.m */; };
+		5E6E499B17EDFA900083E779 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E499A17EDFA900083E779 /* MusicViewController.m */; };
+		5EA49D8117EE37360098D034 /* Timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA49D7F17EE37360098D034 /* Timeline.png */; };
+		5EA49D8217EE37360098D034 /* Timeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA49D8017EE37360098D034 /* Timeline@2x.png */; };
+		5EA49D8517EE3AEC0098D034 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA49D8417EE3AEC0098D034 /* TimelineViewController.m */; };
+		5EA49D8817EE4B180098D034 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA49D8717EE4B180098D034 /* ProfileViewController.m */; };
+		5EBCAE6417EE03AE007CFD4F /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBCAE6317EE03AE007CFD4F /* RegistrationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E6E495C17EDDBC00083E779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E6E492B17EDDBC00083E779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6E493217EDDBC00083E779;
+			remoteInfo = MuseiOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E41E84F17EECDDF00B53137 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5E41E85117EED93D00B53137 /* MusicPlayer@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MusicPlayer@2x.PNG"; sourceTree = "<group>"; };
+		5E41E85617EEDC0300B53137 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		5E41E85717EEDC0300B53137 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		5E41E85917EEE96200B53137 /* Forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward@2x.png"; sourceTree = "<group>"; };
+		5E41E85B17EEE96700B53137 /* Backward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Backward@2x.png"; sourceTree = "<group>"; };
+		5E41E85D17EEE97A00B53137 /* Pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause@2x.png"; sourceTree = "<group>"; };
+		5E41E86117EEEAE600B53137 /* VolDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VolDown@2x.png"; sourceTree = "<group>"; };
+		5E41E86217EEEAE600B53137 /* VolUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VolUp@2x.png"; sourceTree = "<group>"; };
+		5E41E86517EF079900B53137 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		5E41E86617EF079900B53137 /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		5E41E86917EF3B3C00B53137 /* YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeViewController.h; sourceTree = "<group>"; };
+		5E41E86A17EF3B3C00B53137 /* YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeViewController.m; sourceTree = "<group>"; };
+		5E41E86C17EF3DEF00B53137 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		5E41E86D17EF3DEF00B53137 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		5E5370F817EEBDB300F9A8D8 /* Compose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Compose.png; sourceTree = "<group>"; };
+		5E5370F917EEBDB300F9A8D8 /* Compose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Compose@2x.png"; sourceTree = "<group>"; };
+		5E5370FC17EEC03900F9A8D8 /* ID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ID.png; sourceTree = "<group>"; };
+		5E5370FD17EEC03900F9A8D8 /* ID@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ID@2x.png"; sourceTree = "<group>"; };
+		5E6E493317EDDBC00083E779 /* MuseiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6E493617EDDBC00083E779 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E6E493817EDDBC00083E779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E6E493A17EDDBC00083E779 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E6E493E17EDDBC00083E779 /* MuseiOSApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuseiOSApp-Info.plist"; sourceTree = "<group>"; };
+		5E6E494017EDDBC00083E779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E6E494217EDDBC00083E779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E6E494417EDDBC00083E779 /* MuseiOSApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuseiOSApp-Prefix.pch"; sourceTree = "<group>"; };
+		5E6E494517EDDBC00083E779 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E6E494617EDDBC00083E779 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E6E494917EDDBC00083E779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5E6E494C17EDDBC00083E779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5E6E494E17EDDBC00083E779 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E6E494F17EDDBC00083E779 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E6E495117EDDBC00083E779 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E6E495717EDDBC00083E779 /* MuseiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6E495817EDDBC00083E779 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5E6E496017EDDBC00083E779 /* MuseiOSAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuseiOSAppTests-Info.plist"; sourceTree = "<group>"; };
+		5E6E496217EDDBC00083E779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E6E496417EDDBC00083E779 /* MuseiOSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuseiOSAppTests.m; sourceTree = "<group>"; };
+		5E6E496E17EDE4B60083E779 /* Muse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Muse@2x.png"; sourceTree = "<group>"; };
+		5E6E497017EDE4BA0083E779 /* Muse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Muse.png; sourceTree = "<group>"; };
+		5E6E497217EDE7E60083E779 /* LoginInput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoginInput@2x.png"; sourceTree = "<group>"; };
+		5E6E497417EDE7EC0083E779 /* LoginInput.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginInput.png; sourceTree = "<group>"; };
+		5E6E497617EDEABC0083E779 /* Password */ = {isa = PBXFileReference; lastKnownFileType = file; path = Password; sourceTree = "<group>"; };
+		5E6E497717EDEABC0083E779 /* Password@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Password@2x"; sourceTree = "<group>"; };
+		5E6E497A17EDEAC30083E779 /* Username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Username.png; sourceTree = "<group>"; };
+		5E6E497B17EDEAC30083E779 /* Username@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Username@2x.png"; sourceTree = "<group>"; };
+		5E6E497E17EDEC190083E779 /* SignInBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SignInBtn@2x.png"; sourceTree = "<group>"; };
+		5E6E498017EDF4970083E779 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		5E6E498117EDF4970083E779 /* Profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile@2x.png"; sourceTree = "<group>"; };
+		5E6E498417EDF4B70083E779 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		5E6E498517EDF4B70083E779 /* Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings@2x.png"; sourceTree = "<group>"; };
+		5E6E498817EDF4CF0083E779 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+		5E6E498917EDF4CF0083E779 /* Music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music@2x.png"; sourceTree = "<group>"; };
+		5E6E498C17EDF4E80083E779 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		5E6E498D17EDF4E80083E779 /* Search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search@2x.png"; sourceTree = "<group>"; };
+		5E6E499317EDFA670083E779 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		5E6E499417EDFA670083E779 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		5E6E499617EDFA780083E779 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		5E6E499717EDFA780083E779 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		5E6E499917EDFA900083E779 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		5E6E499A17EDFA900083E779 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		5EA49D7F17EE37360098D034 /* Timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timeline.png; sourceTree = "<group>"; };
+		5EA49D8017EE37360098D034 /* Timeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timeline@2x.png"; sourceTree = "<group>"; };
+		5EA49D8317EE3AEC0098D034 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		5EA49D8417EE3AEC0098D034 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		5EA49D8617EE4B180098D034 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		5EA49D8717EE4B180098D034 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5EBCAE6217EE03AE007CFD4F /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		5EBCAE6317EE03AE007CFD4F /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E6E493017EDDBC00083E779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E41E85017EECDDF00B53137 /* MediaPlayer.framework in Frameworks */,
+				5E6E493917EDDBC00083E779 /* CoreGraphics.framework in Frameworks */,
+				5E6E493B17EDDBC00083E779 /* UIKit.framework in Frameworks */,
+				5E6E493717EDDBC00083E779 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6E495417EDDBC00083E779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6E495917EDDBC00083E779 /* XCTest.framework in Frameworks */,
+				5E6E495B17EDDBC00083E779 /* UIKit.framework in Frameworks */,
+				5E6E495A17EDDBC00083E779 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E6E492A17EDDBC00083E779 = {
+			isa = PBXGroup;
+			children = (
+				5E6E493C17EDDBC00083E779 /* MuseiOSApp */,
+				5E6E495E17EDDBC00083E779 /* MuseiOSAppTests */,
+				5E6E493517EDDBC00083E779 /* Frameworks */,
+				5E6E493417EDDBC00083E779 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E6E493417EDDBC00083E779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E6E493317EDDBC00083E779 /* MuseiOSApp.app */,
+				5E6E495717EDDBC00083E779 /* MuseiOSAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E6E493517EDDBC00083E779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E41E84F17EECDDF00B53137 /* MediaPlayer.framework */,
+				5E6E493617EDDBC00083E779 /* Foundation.framework */,
+				5E6E493817EDDBC00083E779 /* CoreGraphics.framework */,
+				5E6E493A17EDDBC00083E779 /* UIKit.framework */,
+				5E6E495817EDDBC00083E779 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E6E493C17EDDBC00083E779 /* MuseiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E6E494517EDDBC00083E779 /* AppDelegate.h */,
+				5E6E494617EDDBC00083E779 /* AppDelegate.m */,
+				5E6E494817EDDBC00083E779 /* Main_iPhone.storyboard */,
+				5E41E86917EF3B3C00B53137 /* YoutubeViewController.h */,
+				5E41E86A17EF3B3C00B53137 /* YoutubeViewController.m */,
+				5E41E85617EEDC0300B53137 /* PlayerViewController.h */,
+				5E41E85717EEDC0300B53137 /* PlayerViewController.m */,
+				5EA49D8317EE3AEC0098D034 /* TimelineViewController.h */,
+				5EA49D8417EE3AEC0098D034 /* TimelineViewController.m */,
+				5EBCAE6217EE03AE007CFD4F /* RegistrationViewController.h */,
+				5EBCAE6317EE03AE007CFD4F /* RegistrationViewController.m */,
+				5EA49D8617EE4B180098D034 /* ProfileViewController.h */,
+				5EA49D8717EE4B180098D034 /* ProfileViewController.m */,
+				5E6E499317EDFA670083E779 /* SettingsViewController.h */,
+				5E6E499417EDFA670083E779 /* SettingsViewController.m */,
+				5E6E499917EDFA900083E779 /* MusicViewController.h */,
+				5E6E499A17EDFA900083E779 /* MusicViewController.m */,
+				5E41E86C17EF3DEF00B53137 /* Music.h */,
+				5E41E86D17EF3DEF00B53137 /* Music.m */,
+				5E6E499617EDFA780083E779 /* SearchViewController.h */,
+				5E6E499717EDFA780083E779 /* SearchViewController.m */,
+				5E6E499C17EDFCE20083E779 /* Icons */,
+				5E6E494B17EDDBC00083E779 /* Main_iPad.storyboard */,
+				5E6E494E17EDDBC00083E779 /* ViewController.h */,
+				5E6E494F17EDDBC00083E779 /* ViewController.m */,
+				5E6E495117EDDBC00083E779 /* Images.xcassets */,
+				5E6E493D17EDDBC00083E779 /* Supporting Files */,
+			);
+			path = MuseiOSApp;
+			sourceTree = "<group>";
+		};
+		5E6E493D17EDDBC00083E779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E6E493E17EDDBC00083E779 /* MuseiOSApp-Info.plist */,
+				5E6E493F17EDDBC00083E779 /* InfoPlist.strings */,
+				5E6E494217EDDBC00083E779 /* main.m */,
+				5E6E494417EDDBC00083E779 /* MuseiOSApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E6E495E17EDDBC00083E779 /* MuseiOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E6E496417EDDBC00083E779 /* MuseiOSAppTests.m */,
+				5E6E495F17EDDBC00083E779 /* Supporting Files */,
+			);
+			path = MuseiOSAppTests;
+			sourceTree = "<group>";
+		};
+		5E6E495F17EDDBC00083E779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E6E496017EDDBC00083E779 /* MuseiOSAppTests-Info.plist */,
+				5E6E496117EDDBC00083E779 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E6E499C17EDFCE20083E779 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5E41E86117EEEAE600B53137 /* VolDown@2x.png */,
+				5E41E86217EEEAE600B53137 /* VolUp@2x.png */,
+				5E41E85D17EEE97A00B53137 /* Pause@2x.png */,
+				5E41E86517EF079900B53137 /* Play.png */,
+				5E41E86617EF079900B53137 /* Play@2x.png */,
+				5E41E85B17EEE96700B53137 /* Backward@2x.png */,
+				5E41E85917EEE96200B53137 /* Forward@2x.png */,
+				5E41E85117EED93D00B53137 /* MusicPlayer@2x.PNG */,
+				5E5370F817EEBDB300F9A8D8 /* Compose.png */,
+				5E5370F917EEBDB300F9A8D8 /* Compose@2x.png */,
+				5E5370FC17EEC03900F9A8D8 /* ID.png */,
+				5E5370FD17EEC03900F9A8D8 /* ID@2x.png */,
+				5EA49D7F17EE37360098D034 /* Timeline.png */,
+				5EA49D8017EE37360098D034 /* Timeline@2x.png */,
+				5E6E498C17EDF4E80083E779 /* Search.png */,
+				5E6E498D17EDF4E80083E779 /* Search@2x.png */,
+				5E6E498817EDF4CF0083E779 /* Music.png */,
+				5E6E498917EDF4CF0083E779 /* Music@2x.png */,
+				5E6E498417EDF4B70083E779 /* Settings.png */,
+				5E6E498517EDF4B70083E779 /* Settings@2x.png */,
+				5E6E498017EDF4970083E779 /* Profile.png */,
+				5E6E498117EDF4970083E779 /* Profile@2x.png */,
+				5E6E497017EDE4BA0083E779 /* Muse.png */,
+				5E6E496E17EDE4B60083E779 /* Muse@2x.png */,
+				5E6E497617EDEABC0083E779 /* Password */,
+				5E6E497717EDEABC0083E779 /* Password@2x */,
+				5E6E497417EDE7EC0083E779 /* LoginInput.png */,
+				5E6E497217EDE7E60083E779 /* LoginInput@2x.png */,
+				5E6E497A17EDEAC30083E779 /* Username.png */,
+				5E6E497B17EDEAC30083E779 /* Username@2x.png */,
+				5E6E497E17EDEC190083E779 /* SignInBtn@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E6E493217EDDBC00083E779 /* MuseiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6E496817EDDBC00083E779 /* Build configuration list for PBXNativeTarget "MuseiOSApp" */;
+			buildPhases = (
+				5E6E492F17EDDBC00083E779 /* Sources */,
+				5E6E493017EDDBC00083E779 /* Frameworks */,
+				5E6E493117EDDBC00083E779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseiOSApp;
+			productName = MuseiOSApp;
+			productReference = 5E6E493317EDDBC00083E779 /* MuseiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E6E495617EDDBC00083E779 /* MuseiOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6E496B17EDDBC00083E779 /* Build configuration list for PBXNativeTarget "MuseiOSAppTests" */;
+			buildPhases = (
+				5E6E495317EDDBC00083E779 /* Sources */,
+				5E6E495417EDDBC00083E779 /* Frameworks */,
+				5E6E495517EDDBC00083E779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E6E495D17EDDBC00083E779 /* PBXTargetDependency */,
+			);
+			name = MuseiOSAppTests;
+			productName = MuseiOSAppTests;
+			productReference = 5E6E495717EDDBC00083E779 /* MuseiOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E6E492B17EDDBC00083E779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "George Lo";
+				TargetAttributes = {
+					5E6E495617EDDBC00083E779 = {
+						TestTargetID = 5E6E493217EDDBC00083E779;
+					};
+				};
+			};
+			buildConfigurationList = 5E6E492E17EDDBC00083E779 /* Build configuration list for PBXProject "MuseiOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E6E492A17EDDBC00083E779;
+			productRefGroup = 5E6E493417EDDBC00083E779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E6E493217EDDBC00083E779 /* MuseiOSApp */,
+				5E6E495617EDDBC00083E779 /* MuseiOSAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E6E493117EDDBC00083E779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E41E85A17EEE96200B53137 /* Forward@2x.png in Resources */,
+				5E6E497817EDEABC0083E779 /* Password in Resources */,
+				5E6E494D17EDDBC00083E779 /* Main_iPad.storyboard in Resources */,
+				5E6E498317EDF4970083E779 /* Profile@2x.png in Resources */,
+				5E6E498E17EDF4E80083E779 /* Search.png in Resources */,
+				5E6E495217EDDBC00083E779 /* Images.xcassets in Resources */,
+				5E6E498617EDF4B70083E779 /* Settings.png in Resources */,
+				5E6E498F17EDF4E80083E779 /* Search@2x.png in Resources */,
+				5E6E497517EDE7EC0083E779 /* LoginInput.png in Resources */,
+				5E6E497D17EDEAC30083E779 /* Username@2x.png in Resources */,
+				5E6E497F17EDEC190083E779 /* SignInBtn@2x.png in Resources */,
+				5EA49D8217EE37360098D034 /* Timeline@2x.png in Resources */,
+				5E5370FF17EEC03900F9A8D8 /* ID@2x.png in Resources */,
+				5E41E86717EF079900B53137 /* Play.png in Resources */,
+				5E6E498217EDF4970083E779 /* Profile.png in Resources */,
+				5E5370FA17EEBDB300F9A8D8 /* Compose.png in Resources */,
+				5E6E497317EDE7E60083E779 /* LoginInput@2x.png in Resources */,
+				5E6E494A17EDDBC00083E779 /* Main_iPhone.storyboard in Resources */,
+				5E5370FE17EEC03900F9A8D8 /* ID.png in Resources */,
+				5E41E85E17EEE97A00B53137 /* Pause@2x.png in Resources */,
+				5EA49D8117EE37360098D034 /* Timeline.png in Resources */,
+				5E41E85C17EEE96700B53137 /* Backward@2x.png in Resources */,
+				5E41E86317EEEAE600B53137 /* VolDown@2x.png in Resources */,
+				5E41E86417EEEAE600B53137 /* VolUp@2x.png in Resources */,
+				5E41E85217EED93D00B53137 /* MusicPlayer@2x.PNG in Resources */,
+				5E6E497117EDE4BA0083E779 /* Muse.png in Resources */,
+				5E6E498A17EDF4CF0083E779 /* Music.png in Resources */,
+				5E6E494117EDDBC00083E779 /* InfoPlist.strings in Resources */,
+				5E6E497917EDEABC0083E779 /* Password@2x in Resources */,
+				5E5370FB17EEBDB300F9A8D8 /* Compose@2x.png in Resources */,
+				5E6E498717EDF4B70083E779 /* Settings@2x.png in Resources */,
+				5E6E497C17EDEAC30083E779 /* Username.png in Resources */,
+				5E6E498B17EDF4CF0083E779 /* Music@2x.png in Resources */,
+				5E6E496F17EDE4B60083E779 /* Muse@2x.png in Resources */,
+				5E41E86817EF079900B53137 /* Play@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6E495517EDDBC00083E779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6E496317EDDBC00083E779 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E6E492F17EDDBC00083E779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6E495017EDDBC00083E779 /* ViewController.m in Sources */,
+				5EBCAE6417EE03AE007CFD4F /* RegistrationViewController.m in Sources */,
+				5EA49D8517EE3AEC0098D034 /* TimelineViewController.m in Sources */,
+				5E41E86E17EF3DEF00B53137 /* Music.m in Sources */,
+				5E6E494717EDDBC00083E779 /* AppDelegate.m in Sources */,
+				5EA49D8817EE4B180098D034 /* ProfileViewController.m in Sources */,
+				5E6E499B17EDFA900083E779 /* MusicViewController.m in Sources */,
+				5E6E499517EDFA670083E779 /* SettingsViewController.m in Sources */,
+				5E6E499817EDFA780083E779 /* SearchViewController.m in Sources */,
+				5E41E86B17EF3B3C00B53137 /* YoutubeViewController.m in Sources */,
+				5E6E494317EDDBC00083E779 /* main.m in Sources */,
+				5E41E85817EEDC0300B53137 /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6E495317EDDBC00083E779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6E496517EDDBC00083E779 /* MuseiOSAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E6E495D17EDDBC00083E779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E6E493217EDDBC00083E779 /* MuseiOSApp */;
+			targetProxy = 5E6E495C17EDDBC00083E779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E6E493F17EDDBC00083E779 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6E494017EDDBC00083E779 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E6E494817EDDBC00083E779 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6E494917EDDBC00083E779 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5E6E494B17EDDBC00083E779 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6E494C17EDDBC00083E779 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5E6E496117EDDBC00083E779 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6E496217EDDBC00083E779 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E6E496617EDDBC00083E779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E6E496717EDDBC00083E779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E6E496917EDDBC00083E779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuseiOSApp/MuseiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "MuseiOSApp/MuseiOSApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E6E496A17EDDBC00083E779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuseiOSApp/MuseiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "MuseiOSApp/MuseiOSApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E6E496C17EDDBC00083E779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MuseiOSApp.app/MuseiOSApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuseiOSApp/MuseiOSApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MuseiOSAppTests/MuseiOSAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5E6E496D17EDDBC00083E779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MuseiOSApp.app/MuseiOSApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuseiOSApp/MuseiOSApp-Prefix.pch";
+				INFOPLIST_FILE = "MuseiOSAppTests/MuseiOSAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E6E492E17EDDBC00083E779 /* Build configuration list for PBXProject "MuseiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6E496617EDDBC00083E779 /* Debug */,
+				5E6E496717EDDBC00083E779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6E496817EDDBC00083E779 /* Build configuration list for PBXNativeTarget "MuseiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6E496917EDDBC00083E779 /* Debug */,
+				5E6E496A17EDDBC00083E779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6E496B17EDDBC00083E779 /* Build configuration list for PBXNativeTarget "MuseiOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6E496C17EDDBC00083E779 /* Debug */,
+				5E6E496D17EDDBC00083E779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E6E492B17EDDBC00083E779 /* Project object */;
+}
