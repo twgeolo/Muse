@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-MUSEWebApp-20130921164914;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-MUSEWebApp-20130921164914.mdf" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\George\ Lo\\Desktop\\MUSEWebApp\\MUSEWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
-  </parameter>
-  <parameter name="MuseSQLEntities-Web.config Connection String" description="MuseSQLEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/MuseModel.csdl|res://*/MuseModel.ssdl|res://*/MuseModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Server=tcp:ornqjagqyr.database.windows.net,1433;Database=MuseSQL;User ID=purduemhacks@ornqjagqyr;Password=Abcd1234;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;&quot;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\George\ Lo\\Desktop\\MUSEWebApp\\MUSEWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MuseSQLEntities']/@connectionString" />
-  </parameter>
-</parameters>
